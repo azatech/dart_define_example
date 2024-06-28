@@ -1,0 +1,6 @@
+{
+  "API_KEY_ID": "api_key_fake_stage_id",
+  "SOME_CONDITIONS_PATH": "/terms",
+  "IS_STAGE": true,
+  "IS_PROD": false
+}

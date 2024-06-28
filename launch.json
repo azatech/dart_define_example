@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "name": "Debug Prod",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file",
+        "keys_production.json"
+      ]
+    },
+    {
+      "name": "Debug Staging",
+      "type": "dart",
+      "request": "launch",
+      "program": "lib/main.dart",
+      "args": [
+        "--dart-define-from-file",
+        "keys_staging.json"
+      ]
+    }
+  ]
+}
